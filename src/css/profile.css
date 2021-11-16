@@ -1,0 +1,62 @@
+@media only screen and (min-width: 1200px) {
+  /* #profileCard{
+    position: relative;
+    width: 60vw;
+    min-height: 20vw;
+    left: 50%;
+    top: 5vw;
+    transform: translate(-50%);
+    background: linear-gradient(to right , #001529 0%, #262904 100% );
+    color: white;
+  }
+
+  #profileCard .card-header{
+    text-align: center;
+  }
+
+  #profileCard .card-header h5{
+    color: white;
+    font-size: 1vw;
+  }
+
+  #profileCard .card-body h1{
+    text-align: center;
+    color: wheat;
+  } */
+  #profileCard{
+    width: 70vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #profileCard button {
+    background-color: #001529;
+    margin: 1vw;
+    border-width: 0;
+  }
+
+  #profileCard ul {
+    margin-right: 13vw;
+    margin-top: 4vw;
+    list-style: none;
+  }
+
+  #profileCard .education button {
+    width: 11vw;
+  }
+
+  #profileCard .skills button {
+    width: 11vw;
+  }
+
+  #profileCard .languages button {   
+    width: 11vw;
+  }
+
+  .title{
+    color: #1890FF;
+  }
+
+}
+

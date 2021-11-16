@@ -1,0 +1,194 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #profileImage
+  {
+    margin-top: 4.5vw;
+    width: 6vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  img.ant-image-img {
+    border-radius: 4vw;
+  }
+  
+  .ant-image-mask {
+    border-radius: 4vw;
+  }
+  
+  
+  aside.ant-layout-sider.ant-layout-sider-dark {
+       /* width: 17vw!important; */
+      /* flex: 0 0 200px; */
+      max-width: 20vw!important;
+      min-width: 8vw!important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #profileImage
+  {
+    margin-top: 4.5vw;
+    width: 6vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  img.ant-image-img {
+    border-radius: 4vw;
+  }
+  
+  .ant-image-mask {
+    border-radius: 4vw;
+  }
+  
+  
+  aside.ant-layout-sider.ant-layout-sider-dark {
+       /* width: 17vw!important; */
+      /* flex: 0 0 200px; */
+      max-width: 20vw!important;
+      min-width: 8vw!important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #profileImage
+  {
+    margin-top: 4.5vw;
+    width: 7vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  img.ant-image-img {
+    border-radius: 4vw;
+  }
+  
+  .ant-image-mask {
+    border-radius: 4vw;
+  }
+  
+  
+  aside.ant-layout-sider.ant-layout-sider-dark {
+       /* width: 17vw!important; */
+      /* flex: 0 0 200px; */
+      max-width: 10vw!important;
+      min-width: 8vw!important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #profileImage
+  {
+    margin-top: 4.5vw;
+    width: 8vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  img.ant-image-img {
+    border-radius: 4vw;
+  }
+  
+  .ant-image-mask {
+    border-radius: 4vw;
+  }
+  
+  
+  aside.ant-layout-sider.ant-layout-sider-dark {
+       /* width: 17vw!important; */
+      /* flex: 0 0 200px; */
+      max-width: 10vw!important;
+      min-width: 8vw!important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #profileImage
+  {
+    margin-top: 5.1vw;
+    width: 8vw;
+    left: 50%;
+    transform: translateX(-53%);
+  }
+  
+  img.ant-image-img {
+    border-radius: 4vw;
+  }
+  
+  .ant-image-mask {
+    border-radius: 4vw;
+  }
+  
+  
+  aside.ant-layout-sider.ant-layout-sider-dark {
+       /* width: 17vw!important; */
+      /* flex: 0 0 200px; */
+      max-width: 12vw!important;
+      min-width: 8vw!important;
+  }
+
+  .icons-list{
+    position: absolute;
+    left: 80%;
+  }
+  .icons-list .nav-link{
+    display: inline-block;
+    padding: 0;
+    margin-left: 1.5vw;
+  }
+  span.anticon{
+    color: white;
+    font-size: 1.5vw;
+    /* margin-left: 1vw; */
+  }
+
+  #facebook svg , #linkedin svg{
+    border-radius: 0.6vw;
+  }
+  #contactForm input {
+    margin-bottom: 1vw;
+  }
+  #contactForm button {
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    margin-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  #ContactModalFooter button {
+    position: relative;
+    right: 100%;
+    transform: translateX(100%);
+  }
+
+  #sideBarMenu a{
+    padding: 0;
+    text-decoration: none;
+  }
+  #contentProfile .site-layout-background{
+    min-height: 50vw;
+    padding-left: 13vw;
+    padding-top: 8vw;
+  }
+
+  #contentProfile{
+    
+    /* background-image:  linear-gradient(to right, rgba(30, 75, 115, 1), rgba(30, 75, 115, 1)), linear-gradient(to right, rgb(228, 21, 6), rgb(228, 21, 6)) , linear-gradient(to right, rgb(43, 228, 6), rgb(43, 228, 6)); */
+    /* background-color:red , green , black;
+    background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+    background-position: bottom right , left , right; */
+    /* background: linear-gradient(145deg , white 63% , #001529 40%) ; */
+    background-repeat: no-repeat;
+  }
+
+}
